@@ -20,3 +20,8 @@ function squareSum(numbers){
 function numberToString(num) {
   return num.toString();
 }
+
+//Convert boolean values to to strings Yes or No
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
