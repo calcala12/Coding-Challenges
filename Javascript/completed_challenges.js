@@ -15,3 +15,8 @@ function squareSum(numbers){
     return (n*n) + sum;
   }, 0)
 }
+
+//Convert a Number to a String!
+function numberToString(num) {
+  return num.toString();
+}
