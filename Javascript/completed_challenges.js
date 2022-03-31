@@ -39,3 +39,8 @@ function isIsogram(str){
    }
    return true;
 }
+
+// Return Negative Solution
+function makeNegative(num) {
+  return -Math.abs(num);
+}
