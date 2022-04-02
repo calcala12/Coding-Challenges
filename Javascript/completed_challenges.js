@@ -44,3 +44,8 @@ function isIsogram(str){
 function makeNegative(num) {
   return -Math.abs(num);
 }
+
+// Return a greeting string
+function greet(name) {
+  return "Hello, " + name + " how are you doing today?";
+}
