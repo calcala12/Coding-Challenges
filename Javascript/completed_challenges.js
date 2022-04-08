@@ -85,3 +85,9 @@ function abbrevName(name){
   const newArray = name.split(" ")
   return (newArray[0][0] + "." + newArray[1][0]).toUpperCase()
 }
+
+/* Simple, remove the spaces from the string, then return the resultant string. */
+
+function noSpace(x){
+  return x.replace(/\s/g, '');
+  }
