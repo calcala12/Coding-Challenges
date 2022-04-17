@@ -101,5 +101,11 @@ function noSpace(x){
     var m = str.match(/[aeiou]/gi);
     return m === null ? 0 : m.length;
   }
+
+  //Create a function called greeting that returns 'hello world!'
+
+  function greeting(){
+    return ('hello world!');
+  }
     
    
