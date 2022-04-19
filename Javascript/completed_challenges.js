@@ -107,5 +107,12 @@ function noSpace(x){
   function greeting(){
     return ('hello world!');
   }
-    
+  
+/*   Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+ */
+
+function doubleChar(str) {
+  return str.replace(/./g, '$&$&');
+}
+
    
