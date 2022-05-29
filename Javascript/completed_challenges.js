@@ -155,3 +155,13 @@ var number = function(array){
 function removeEveryOther(arr){
   return arr.filter((_, idx) => idx % 2 === 0);
 }
+
+// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+function even_or_odd(number) {
+  if( number % 2 === 0 ){
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}
